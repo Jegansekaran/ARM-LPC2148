@@ -1,0 +1,5 @@
+_lcd_command: CODE, 1836 0 48
+_lcd_data: CODE, 1788 0 48
+_main: CODE, 1884 0 164
+_lcd_string: CODE, 1755 0 33
+Total: 293
