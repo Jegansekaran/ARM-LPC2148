@@ -1,0 +1,41 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\gvjeg\Desktop\embedded c\ARM\INTERRUPT\TIMER INTERRUPT\timer_int.c
+Project File Date:  05/16/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+linking...
+Program Size: Code=1136 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\timer_int.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+
+  }
+timer_int.c: 2 warnings, 0 errors
+linking...
+Program Size: Code=1136 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\timer_int.axf" - 0 Error(s), 2 Warning(s).
+ine of file ends without a newline
+  }
+timer_int.c: 2 warnings, 2 errors
+".\timer_int.axf" - 2 Error(s), 2 Warning(s).
+Target not created
+
+mpiling timer_int.c...
+timer_int.c(24): error:  #20: identifier "VICIntEnable0" is undefined
+        VICIntEnable0 = (1<<4);
+timer_int.c(36): error:  #20: identifier "VICIntEnable1" is undefined
+        VICIntEnable1 = (1<<5);
+timer_int.c(42): warning:  #951-D: return type of function "main" must be "int"
+  void main(){
+timer_int.c(48): warning:  #1-D: last line of file ends without a newline
+  }
+timer_int.c: 2 warnings, 2 errors
+"timer_int.c" - 2 Error(s), 2 Warning(s).
