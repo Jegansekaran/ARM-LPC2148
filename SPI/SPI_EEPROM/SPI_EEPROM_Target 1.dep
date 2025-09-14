@@ -1,0 +1,4 @@
+Dependencies for Project 'SPI_EEPROM', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x532C14EA)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\my_keil\ARM\RV31\INC-I C:\my_keil\ARM\CMSIS\Include-I C:\my_keil\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\SPI_EEPROM.c)(0x6830420B)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I C:\my_keil\ARM\RV31\INC-I C:\my_keil\ARM\CMSIS\Include-I C:\my_keil\ARM\Inc\Philips-o .\spi_eeprom.o --omf_browse .\spi_eeprom.crf --depend .\spi_eeprom.d)
+I (C:\my_keil\ARM\Inc\Philips\LPC214X.H)(0x532C1500)
