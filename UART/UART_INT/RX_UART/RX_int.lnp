@@ -1,0 +1,7 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\rx_int.o"
+--strict --scatter ".\RX_int.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\RX_int.map" -o .\RX_int.axf
