@@ -1,0 +1,35 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\gvjeg\Desktop\embedded c\ARM\PWM\PWM_2\PWM_2.uvproj
+Project File Date:  06/08/2025
+
+<h2>Output:</h2>
+Build target 'Target 1'
+compiling PWM_2.c...
+linking...
+Program Size: Code=756 RO-data=16 RW-data=0 ZI-data=1256  
+FromELF: creating hex file...
+".\PWM_2.axf" - 0 Error(s), 0 Warning(s).
+</pre>
+</body>
+</html>
+56  
+FromELF: creating hex file...
+".\PWM_2.axf" - 0 Error(s), 1 Warning(s).
+       for (volatile int d = 0; d < 50; d++);  // Tiny delay (~few µs)
+PWM_2.c(31): error:  #20: identifier "d" is undefined
+              for (volatile int d = 0; d < 50; d++);  // Tiny delay (~few µs)
+PWM_2.c(34): error:  #29: expected an expression
+          for (int i = 1000; i >= 0; i--) {
+PWM_2.c(37): error:  #29: expected an expression
+              for (volatile int d = 0; d < 50; d++);
+PWM_2.c(37): error:  #20: identifier "d" is undefined
+              for (volatile int d = 0; d < 50; d++);
+PWM_2.c(48): warning:  #1-D: last line of file ends without a newline
+  }
+PWM_2.c: 1 warning, 7 errors
+".\PWM_2.axf" - 7 Error(s), 1 Warning(s).
+Target not created
